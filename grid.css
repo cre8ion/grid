@@ -2767,7 +2767,7 @@ body {
     .l-padding-l-200 { padding-left:200px; }
 }
 
-@media (max-width: 7700px) {
+@media (max-width: 770px) {
     .m-padding-0 { padding:0; }
     .m-padding-5 { padding:5px; }
     .m-padding-10 { padding:10px; }
@@ -4050,13 +4050,13 @@ body {
 
 /* aspect ratios
 ----------------------------------------------------------------------------------------------------*/
-.aspect, .aspect-1-1, .aspect-4-3, .aspect-16-9, .aspect-16-3, .aspect-16-6, .aspect-32-9, .aspect-38-25 {
+*[class*="aspect-"] {
     position:relative;
     width:100%;
     overflow:hidden;
 }
 
-.aspect > *, .aspect-1-1 > *,  .aspect-2-1 > *, .aspect-16-9 > * {
+*[class*="aspect-"] > * {
     position:absolute!important;
     top:0;
     left:0;
@@ -4070,34 +4070,47 @@ body {
 .aspect-2-1 { padding-bottom:50%; }
 .aspect-16-9 { padding-bottom:56.25%; }
 
+.aspect-none { padding-bottom:0; }
+.aspect-none > * { position:relative!important; }
+
 @media (max-width: 1200px) {
     .xl-aspect-1-1 { padding-bottom:100%; }
     .xl-aspect-2-1 { padding-bottom:50%; }
     .xl-aspect-16-9 { padding-bottom:56.25%; }
+    .xl-aspect-none { padding-bottom:0; }
+    .xl-aspect-none > * { position:relative!important; }
 }
 
 @media (max-width: 1030px) {
     .l-aspect-1-1 { padding-bottom:100%; }
     .l-aspect-2-1 { padding-bottom:50%; }
     .l-aspect-16-9 { padding-bottom:56.25%; }
+    .l-aspect-none { padding-bottom:0; }
+    .l-aspect-none > * { position:relative!important; }
 }
 
 @media (max-width: 770px) {
     .m-aspect-1-1 { padding-bottom:100%; }
     .m-aspect-2-1 { padding-bottom:50%; }
     .m-aspect-16-9 { padding-bottom:56.25%; }
+    .m-aspect-none { padding-bottom:0; }
+    .m-aspect-none > * { position:relative!important; }
 }
 
 @media (max-width: 480px) {
     .s-aspect-1-1 { padding-bottom:100%; }
     .s-aspect-2-1 { padding-bottom:50%; }
     .s-aspect-16-9 { padding-bottom:56.25%; }
+    .s-aspect-none { padding-bottom:0; }
+    .s-aspect-none > * { position:relative!important; }
 }
 
 @media (max-width: 360px) {
     .xs-aspect-1-1 { padding-bottom:100%; }
     .xs-aspect-2-1 { padding-bottom:50%; }
     .xs-aspect-16-9 { padding-bottom:56.25%; }
+    .xs-aspect-none { padding-bottom:0; }
+    .xs-aspect-none > * { position:relative!important; }
 }
 
 

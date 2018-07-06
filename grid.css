@@ -4122,13 +4122,12 @@ body {
 
 /* aspect ratios
 ----------------------------------------------------------------------------------------------------*/
-.aspect, .aspect-1-1, .aspect-4-3, .aspect-16-9, .aspect-16-3, .aspect-16-6, .aspect-32-9, .aspect-38-25 {
+-*[class*="aspect-"] {
     position:relative;
     width:100%;
     overflow:hidden;
 }
-
-.aspect > *, .aspect-1-1 > *,  .aspect-2-1 > *, .aspect-16-9 > * {
+-*[class*="aspect-"] > * {
     position:absolute!important;
     top:0;
     left:0;

@@ -4741,7 +4741,7 @@ body {
     overflow:hidden;
 }
 
-*[class*="aspect-"] > * {
+*[class*="aspect-"]:not(.wp-embed-aspect-16-9):not(.wp-has-aspect-ratio) > * {
     position:absolute!important;
     top:0;
     left:0;
@@ -4810,6 +4810,7 @@ body {
 }
 
 
+
 /* Split
 ----------------------------------------------------------------------------------------------------*/
 *.split-1, *.split-2, *.split-3, *.split-4, *.split-5, *.split-6, .split-hide { display:none; }
@@ -4830,7 +4831,7 @@ body {
     *.xl-split-6:nth-of-type(6n) { display:block; }
 }
 @media (max-width: 1030px) {
-    *[class*="xl-split-"]:nth-of-type(1n),
+    *[class*="l-split-"]:nth-of-type(1n),
     *.l-split-hide:nth-of-type(1n) { display:none; }
     *.l-split-1:nth-of-type(1n) { display:block; }
     *.l-split-2:nth-of-type(2n) { display:block; }
@@ -4840,7 +4841,7 @@ body {
     *.l-split-6:nth-of-type(6n) { display:block; }
 }
 @media (max-width: 770px) {
-    *[class*="l-split-"]:nth-of-type(1n),
+    *[class*="m-split-"]:nth-of-type(1n),
     *.m-split-hide:nth-of-type(1n) { display:none; }
     *.m-split-1:nth-of-type(1n) { display:block; }
     *.m-split-2:nth-of-type(2n) { display:block; }
@@ -4850,7 +4851,7 @@ body {
     *.m-split-6:nth-of-type(6n) { display:block; }
 }
 @media (max-width: 480px) {
-    *[class*="m-split-"]:nth-of-type(1n),
+    *[class*="s-split-"]:nth-of-type(1n),
     *.s-split-hide:nth-of-type(1n) { display:none; }
     *.s-split-1:nth-of-type(1n) { display:block; }
     *.s-split-2:nth-of-type(2n) { display:block; }
@@ -4860,7 +4861,7 @@ body {
     *.s-split-6:nth-of-type(6n) { display:block; }
 }
 @media (max-width: 360px) {
-    *[class*="s-split-"]:nth-of-type(1n),
+    *[class*="xs-split-"]:nth-of-type(1n),
     *.xs-split-hide:nth-of-type(1n) { display:none; }
     *.xs-split-1:nth-of-type(1n) { display:block; }
     *.xs-split-2:nth-of-type(2n) { display:block; }
@@ -4869,6 +4870,7 @@ body {
     *.xs-split-5:nth-of-type(5n) { display:block; }
     *.xs-split-6:nth-of-type(6n) { display:block; }
 }
+
 
 
 /* Cursors

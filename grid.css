@@ -1,6 +1,6 @@
 /*!
  * grid v1.4.3
- * Copyright 2014-2018 Cre8ion Studios, Ltd.
+ * Copyright 2014-2019 Cre8ion Studios, Ltd.
  * Licensed under GNU (https://github.com/cre8ion/grid/blob/master/LICENSE)
 */
 
@@ -176,7 +176,6 @@ body {
 .flex-rtl { flex-direction:row-reverse; }
 .flex-ttb { flex-direction:column; }
 .flex-btt { flex-direction:column-reverse; }
-
 .flex-wrap { flex-wrap:wrap; }
 .flex-nowrap { flex-wrap:nowrap; }
 .flex-wrap-reverse { flex-wrap:wrap-reverse; }
@@ -500,9 +499,9 @@ body {
        height:0;
        overflow:hidden;
     }
-    .xxl-show, .xl-show, .l-hide, .m-hide, .s-hide, .xs-hide { display:inline-block; }
+    .xxl-show, .xl-hide, .l-hide, .m-hide, .s-hide, .xs-hide { display:inline-block; }
     .flex.xxl-show, .flex.xl-show, .flex.l-hide, .flex.m-hide, .flex.s-hide, .flex.xs-hide { display:flex; }
-    .xxl-hide, .xl-hide, .l-show, .m-show, .s-show, .xs-show, .none,
+    .xxl-hide, .xl-show, .l-show, .m-show, .s-show, .xs-show, .none,
     .flex.xxl-hide, .flex.xl-hide, .flex.l-show, .flex.m-show, .flex.s-show, .flex.xs-show, .flex.none { display:none; }
 
     .xxl-relative { position:relative; }

@@ -4668,6 +4668,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+.background-100 {
+    background-size: 100% 100%;
+}
 .background-center { background-position:center; }
 .background-center-bottom { background-position:center bottom; }
 .background-contain {
@@ -4682,6 +4685,9 @@ body {
         -o-background-size: cover;
         background-size: cover;
     }
+    .xl-background-100 {
+        background-size: 100% 100%;
+    }
     .xl-background-center { background-position:center; }
     .xl-background-center-bottom { background-position:center bottom; }
 }
@@ -4692,6 +4698,9 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+    .l-background-100 {
+        background-size: 100% 100%;
     }
     .l-background-center { background-position:center; }
     .l-background-center-bottom { background-position:center bottom; }
@@ -4704,6 +4713,9 @@ body {
         -o-background-size: cover;
         background-size: cover;
     }
+    .m-background-100 {
+        background-size: 100% 100%;
+    }
     .m-background-center { background-position:center; }
     .m-background-center-bottom { background-position:center bottom; }
 }
@@ -4715,6 +4727,9 @@ body {
         -o-background-size: cover;
         background-size: cover;
     }
+    .s-background-100 {
+        background-size: 100% 100%;
+    }
     .s-background-center { background-position:center; }
     .s-background-center-bottom { background-position:center bottom; }
 }
@@ -4725,6 +4740,9 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+    .xs-background-100 {
+        background-size: 100% 100%;
     }
     .xs-background-center { background-position:center; }
     .xs-background-center-bottom { background-position:center bottom; }

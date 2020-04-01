@@ -1473,80 +1473,86 @@ body {
 .pull-9 { left:-75.0%; }
 .pull-10 { left:-83.333%; }
 .pull-11 { left:-91.667%; }
+.pull-12 { left:-100%; }
 
 @media (max-width: 1200px) {
     .xl-pull-0 { left:0; }
-    .xl-pull-1 { left:8.333%; }
-    .xl-pull-2 { left:16.667%; }
-    .xl-pull-3 { left:25.0%; }
-    .xl-pull-4 { left:33.333%; }
-    .xl-pull-5 { left:41.667%; }
-    .xl-pull-6 { left:50.0%; }
-    .xl-pull-7 { left:58.333%; }
-    .xl-pull-8 { left:66.667%; }
-    .xl-pull-9 { left:75.0%; }
-    .xl-pull-10 { left:83.333%; }
-    .xl-pull-11 { left:91.667%; }
+    .xl-pull-1 { left:-8.333%; }
+    .xl-pull-2 { left:-16.667%; }
+    .xl-pull-3 { left:-25.0%; }
+    .xl-pull-4 { left:-33.333%; }
+    .xl-pull-5 { left:-41.667%; }
+    .xl-pull-6 { left:-50.0%; }
+    .xl-pull-7 { left:-58.333%; }
+    .xl-pull-8 { left:-66.667%; }
+    .xl-pull-9 { left:-75.0%; }
+    .xl-pull-10 { left:-83.333%; }
+    .xl-pull-11 { left:-91.667%; }
+    .xl-pull-12 { left:-100%; }
 }
 
 @media (max-width: 1030px) {
     .l-pull-0 { left:0; }
-    .l-pull-1 { left:8.333%; }
-    .l-pull-2 { left:16.667%; }
-    .l-pull-3 { left:25.0%; }
-    .l-pull-4 { left:33.333%; }
-    .l-pull-5 { left:41.667%; }
-    .l-pull-6 { left:50.0%; }
-    .l-pull-7 { left:58.333%; }
-    .l-pull-8 { left:66.667%; }
-    .l-pull-9 { left:75.0%; }
-    .l-pull-10 { left:83.333%; }
-    .l-pull-11 { left:91.667%; }
+    .l-pull-1 { left:-8.333%; }
+    .l-pull-2 { left:-16.667%; }
+    .l-pull-3 { left:-25.0%; }
+    .l-pull-4 { left:-33.333%; }
+    .l-pull-5 { left:-41.667%; }
+    .l-pull-6 { left:-50.0%; }
+    .l-pull-7 { left:-58.333%; }
+    .l-pull-8 { left:-66.667%; }
+    .l-pull-9 { left:-75.0%; }
+    .l-pull-10 { left:-83.333%; }
+    .l-pull-11 { left:-91.667%; }
+    .l-pull-12 { left:-100%; }
 }
 
 @media (max-width: 770px) {
-    .m-pull-0 { left:0; }
-    .m-pull-1 { left:8.333%; }
-    .m-pull-2 { left:16.667%; }
-    .m-pull-3 { left:25.0%; }
-    .m-pull-4 { left:33.333%; }
-    .m-pull-5 { left:41.667%; }
-    .m-pull-6 { left:50.0%; }
-    .m-pull-7 { left:58.333%; }
-    .m-pull-8 { left:66.667%; }
-    .m-pull-9 { left:75.0%; }
-    .m-pull-10 { left:83.333%; }
-    .m-pull-11 { left:91.667%; }
+    .m-pull-0 { left:-0; }
+    .m-pull-1 { left:-8.333%; }
+    .m-pull-2 { left:-16.667%; }
+    .m-pull-3 { left:-25.0%; }
+    .m-pull-4 { left:-33.333%; }
+    .m-pull-5 { left:-41.667%; }
+    .m-pull-6 { left:-50.0%; }
+    .m-pull-7 { left:-58.333%; }
+    .m-pull-8 { left:-66.667%; }
+    .m-pull-9 { left:-75.0%; }
+    .m-pull-10 { left:-83.333%; }
+    .m-pull-11 { left:-91.667%; }
+    .m-pull-12 { left:-100%; }
 }
 
 @media (max-width: 480px) {
-    .s-pull-0 { left:0; }
-    .s-pull-1 { left:8.333%; }
-    .s-pull-2 { left:16.667%; }
-    .s-pull-3 { left:25.0%; }
-    .s-pull-4 { left:33.333%; }
-    .s-pull-5 { left:41.667%; }
-    .s-pull-6 { left:50.0%; }
-    .s-pull-7 { left:58.333%; }
-    .s-pull-8 { left:66.667%; }
-    .s-pull-9 { left:75.0%; }
-    .s-pull-10 { left:83.333%; }
-    .s-pull-11 { left:91.667%; }
+    .s-pull-0 { left:-0; }
+    .s-pull-1 { left:-8.333%; }
+    .s-pull-2 { left:-16.667%; }
+    .s-pull-3 { left:-25.0%; }
+    .s-pull-4 { left:-33.333%; }
+    .s-pull-5 { left:-41.667%; }
+    .s-pull-6 { left:-50.0%; }
+    .s-pull-7 { left:-58.333%; }
+    .s-pull-8 { left:-66.667%; }
+    .s-pull-9 { left:-75.0%; }
+    .s-pull-10 { left:-83.333%; }
+    .s-pull-11 { left:-91.667%; }
+    .s-pull-12 { left:-100%; }
 }
 
 @media (max-width: 360px) {
-    .xs-pull-0 { left:0; }
-    .xs-pull-1 { left:8.333%; }
-    .xs-pull-2 { left:16.667%; }
-    .xs-pull-3 { left:25.0%; }
-    .xs-pull-4 { left:33.333%; }
-    .xs-pull-5 { left:41.667%; }
-    .xs-pull-6 { left:50.0%; }
-    .xs-pull-7 { left:58.333%; }
-    .xs-pull-8 { left:66.667%; }
-    .xs-pull-9 { left:75.0%; }
-    .xs-pull-10 { left:83.333%; }
-    .xs-pull-11 { left:91.667%; }
+    .xs-pull-0 { left:-0; }
+    .xs-pull-1 { left:-8.333%; }
+    .xs-pull-2 { left:-16.667%; }
+    .xs-pull-3 { left:-25.0%; }
+    .xs-pull-4 { left:-33.333%; }
+    .xs-pull-5 { left:-41.667%; }
+    .xs-pull-6 { left:-50.0%; }
+    .xs-pull-7 { left:-58.333%; }
+    .xs-pull-8 { left:-66.667%; }
+    .xs-pull-9 { left:-75.0%; }
+    .xs-pull-10 { left:-83.333%; }
+    .xs-pull-11 { left:-91.667%; }
+    .xs-pull-12 { left:-100%; }
 }
 
 
